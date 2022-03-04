@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio1 {
+public class ex_media {
 
     public static void main(String[] args) {
         
