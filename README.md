@@ -1,4 +1,4 @@
-# <p align="center"> <img width="45" src="https://icon-library.com/images/programming-icon/programming-icon-29.jpg"/>  Exercícios | Exemplos - 3º Semestre da Faculdade (Java) 💻 </p>
+# <p align="center"> <img width="45" src="https://cdn-icons-png.flaticon.com/512/226/226777.png"/>  Exercícios | Exemplos - 3º Semestre da Faculdade (Java) 💻 </p>
 
 <p align="center">
 <br>
