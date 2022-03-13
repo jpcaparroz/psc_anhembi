@@ -7,6 +7,10 @@
 <em>Sistemas de Informação</em>
 </p>
 
+<p align="center">
+Aqui uparei todas minhas aulas e exemplos executados durante todo o semestre =)
+</p>
+
 <div>
 <p align="center">
 <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-dias-caparroz-2b19a1161/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
