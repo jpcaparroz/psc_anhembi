@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_2float {
+public class ExercFloat {
 
     public static void main(String[] args) {
         

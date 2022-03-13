@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_ifcomposto {
+public class ExIfComposto {
 
     public static void main(String[] args) {
 

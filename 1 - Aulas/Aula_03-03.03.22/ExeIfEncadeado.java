@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_ifencadeado {
+public class ExeIfEncadeado {
     
     public static void main(String[] args) {
         

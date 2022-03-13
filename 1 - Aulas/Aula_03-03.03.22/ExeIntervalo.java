@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_intervalo100_50 {
+public class ExeIntervalo {
 
     public static void main(String[] args) {
         

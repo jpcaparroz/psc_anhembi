@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_media {
+public class ExercMedia {
 
     public static void main(String[] args) {
         

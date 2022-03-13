@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_nadador {
+public class ExercNadador {
 
     public static void main(String[] args) {
         

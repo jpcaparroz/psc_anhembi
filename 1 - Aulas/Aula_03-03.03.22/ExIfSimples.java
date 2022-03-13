@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_ifsimples {
+public class ExIfSimples {
 
     public static void main(String[] args) {
 
