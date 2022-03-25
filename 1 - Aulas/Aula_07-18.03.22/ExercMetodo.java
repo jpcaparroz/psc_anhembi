@@ -10,7 +10,7 @@ public class ExercMetodo {
         num = scanner.nextInt();
 
         verificar(num);
-        
+
         scanner.close();
     }
 
@@ -19,14 +19,11 @@ public class ExercMetodo {
         if (valor <= 0) {
 
             System.out.println("O valor e negativo =(");
-            
+
         } else {
 
             System.out.println("O valor e positivo =)");
-        }   
+        }
     }
 
-
-
-    
 }

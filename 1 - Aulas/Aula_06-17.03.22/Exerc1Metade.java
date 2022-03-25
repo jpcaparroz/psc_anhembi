@@ -1,6 +1,6 @@
 //Faça um algoritmo que imprima a metade de cada número de 10 a 20.
 
-public class ExercMetade{
+public class Exerc1Metade{
 
     public static void main(String[] args) {
         

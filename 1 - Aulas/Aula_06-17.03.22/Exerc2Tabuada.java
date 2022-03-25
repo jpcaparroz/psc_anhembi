@@ -1,6 +1,6 @@
 //Faça um algoritmo que imprima a tabuada do 5.
 
-public class ExercTabuada {
+public class Exerc2Tabuada {
 
     public static void main(String[] args) {
         

@@ -11,7 +11,7 @@
 
 import java.util.Scanner;
 
-public class ExercValor {
+public class Exerc3Valor {
 
     public static void main(String[] args) {
 
