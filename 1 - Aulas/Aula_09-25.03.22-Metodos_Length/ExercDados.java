@@ -1,7 +1,9 @@
 /*
 Uma pessoa deseja verificar se um dado está viciado ou não. 
-Para ajudá-la você deve escrever um programa que leia os valores de 1 a 6 correspondendo aos lados do dado, e ao final da digitação 
-exibir quantas vezes cada lado ocorreu. Na entrada de dados você deve validar se os números estão de acordo com o esperado. 
+Para ajudá-la você deve escrever um programa que leia os valores de 1 a 6 correspondendo aos 
+lados do dado, e ao final da digitação 
+exibir quantas vezes cada lado ocorreu. Na entrada de dados você deve validar se os números estão de 
+acordo com o esperado. 
 O critério de parada de leitura é quando o usuário digitar o valor -1.
 */
 import java.util.Scanner;
@@ -22,14 +24,18 @@ public class ExercDados {
             dado[i] = 0;
         }
 
-        while(verificar != -1){
+        while(verificar != -1 ){
 
+            do {
+                
             System.out.println("Digite um numero entre 1 e 6");
             numero = scanner.nextInt();
+            if(numero == -1){break;}
+            
+            }while (numero < 1 || numero > 6);
 
-            if(numero == -1){
-                break;
-            }
+            if(numero == -1){break;}
+
             dado[numero] = dado[numero]  + 1;
         }
 
