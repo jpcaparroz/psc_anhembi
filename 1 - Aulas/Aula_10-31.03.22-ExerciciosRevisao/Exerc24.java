@@ -65,13 +65,17 @@ public class Exerc24 {
         if (verificar.equals("nao")) {break;}
 
         } while (verificar.equals("sim"));
-        
-        linha();
-        for (int i = 0; i < carrinhoProdutos.length; i++) {
-            System.out.println(carrinhoProdutos[i] + "x " +  cardapioProduto(i) + " = " + (cardapioPreco(i) *  carrinhoProdutos[i]) );
-        }
 
-        System.out.println("Valor total: " + carrinho);
+        linha();
+        System.out.println("Nota da Compra:");
+
+        for (int i = 0; i < carrinhoProdutos.length; i++) {
+
+            if(carrinhoProdutos[i] == 0){System.out.print("");;}else{  
+            System.out.println(carrinhoProdutos[i] + "x " +  cardapioProduto(i) + " = R$" + (cardapioPreco(i) *  carrinhoProdutos[i]) );
+        }   }
+
+        System.out.println("Valor total: R$" + carrinho);
 
         scanner.close();
     }
