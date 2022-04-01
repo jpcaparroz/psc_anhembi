@@ -26,6 +26,8 @@ public class Exerc24 {
         String verCardapio, verificar;
         int codigoProduto, quantidade;
         double carrinho = 0.00;
+
+        int carrinhoProdutos [] = new int [6];
          
         Scanner scanner = new Scanner(System.in);
 
@@ -52,6 +54,8 @@ public class Exerc24 {
 
         System.out.println("Quantas unidades?");
         quantidade = scanner.nextInt();
+
+        carrinhoProdutos[codigoProduto] = carrinhoProdutos[codigoProduto] + quantidade;
         
         carrinho = carrinho + (cardapioPreco(codigoProduto) * quantidade);
 
@@ -61,8 +65,13 @@ public class Exerc24 {
         if (verificar.equals("nao")) {break;}
 
         } while (verificar.equals("sim"));
+        
+        linha();
+        for (int i = 0; i < carrinhoProdutos.length; i++) {
+            System.out.println(carrinhoProdutos[i] + "x " +  cardapioProduto(i) + " = " + (cardapioPreco(i) *  carrinhoProdutos[i]) );
+        }
 
-        System.out.println(carrinho);
+        System.out.println("Valor total: " + carrinho);
 
         scanner.close();
     }
