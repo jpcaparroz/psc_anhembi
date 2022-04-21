@@ -12,7 +12,7 @@ public class Carro {
 
         this.marca = marca;
         this.modelo = modelo;
-        this.qntCombustivel = qntCombustivel;
+        this.qntCombustivel = qntCombustivel;        
         this.consumo = consumo;
         this.quilometragem = quilometragem;
     }
@@ -51,14 +51,13 @@ public class Carro {
 
     public void andar(double distancia) {
 
-        if (distancia > (qntCombustivel * consumo)) {
+        if (distancia >= 0 && distancia > (qntCombustivel * consumo)) {
 
-            System.out.println("Viagem feita com sucesso! =)");
+            System.out.println("Não possue combustivel suficiente =(");
 
         } else {
 
-            System.out.println("Não possue combustivel suficiente =(");
+            System.out.println("Viagem feita com sucesso! =)");
         }
-        
     }
 }

@@ -6,7 +6,8 @@ public class AppCarro {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
-        Carro carroUsado = new Carro("Volks", "Corsa", 15, 7, 15000);
+
+        Carro carroUsado = new Carro("Volks", "Corsa", 0, 3, 30);
 
         System.out.println(carroUsado.exibir());
 
