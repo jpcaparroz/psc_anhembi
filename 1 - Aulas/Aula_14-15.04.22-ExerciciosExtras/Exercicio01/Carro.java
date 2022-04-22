@@ -9,7 +9,7 @@ public class Carro {
     private float quilometragem;
 
     public Carro(String marca, String modelo, double qntCombustivel, double consumo, float quilometragem) {
-
+        
         this.marca = marca;
         this.modelo = modelo;
         this.qntCombustivel = qntCombustivel;        

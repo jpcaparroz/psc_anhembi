@@ -6,8 +6,79 @@ public class AppCarro {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
+        
+        String marca = null;
+        String modelo = null;
+        double qntCombustivel = 0;
+        double consumo = 0;
+        float quilometragem = 0;
+        int i = 0;
 
-        Carro carroUsado = new Carro("Volks", "Corsa", 2, 3, 30);
+        while(i == 0){
+
+            System.out.println("A marca do carro:");
+            marca = scanner.next();
+            if (marca.isEmpty()) {
+                System.out.println("A marca não pode estar vazia.");
+                
+            } else {
+                i++;
+            } 
+        }
+        i = 0;
+
+        while(i == 0){
+
+            System.out.println("O modelo do carro:");
+            modelo = scanner.next();
+            if (modelo.isEmpty()) {
+                System.out.println("O modelo não pode estar vazio.");
+                
+            } else {
+                i++;
+            } 
+        }
+        i = 0;
+        
+        while(i == 0){
+
+            System.out.println("A quantidade de combustivel do carro:");
+            qntCombustivel = scanner.nextDouble();
+            if (qntCombustivel < 0) {
+                System.out.println("A quantidade não pode ser negativa.");
+                
+            } else {
+                i++;
+            } 
+        }
+        i = 0;        
+        
+        while(i == 0){
+
+            System.out.println("O consumo do carro:");
+            consumo = scanner.nextDouble();
+            if (consumo <= 0) {
+                System.out.println("O consumo não pode ser negativo.");
+                
+            } else {
+                i++;
+            } 
+        }
+        i = 0;
+        
+        while(i == 0){
+
+            System.out.println("A quilometragem do carro:");
+            quilometragem = scanner.nextFloat();
+            if (quilometragem < 0) {
+                System.out.println("A quilometragem não pode ser negativa.");
+                
+            } else {
+                i++;
+            } 
+        }
+
+        Carro carroUsado = new Carro(marca, modelo, qntCombustivel, consumo, quilometragem);
 
         System.out.println(carroUsado.exibir());
 
