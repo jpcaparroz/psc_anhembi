@@ -7,7 +7,7 @@ public class AppCarro {
         
         Scanner scanner = new Scanner(System.in);
 
-        Carro carroUsado = new Carro("Volks", "Corsa", 0, 3, 30);
+        Carro carroUsado = new Carro("Volks", "Corsa", 2, 3, 30);
 
         System.out.println(carroUsado.exibir());
 
@@ -22,12 +22,13 @@ public class AppCarro {
             carroUsado.abastecer(litros);
         }
 
-        carroUsado.exibir();
+        System.out.println(carroUsado.exibir());
         
         System.out.println("Quantos km's você deseja percorrer?");
         double distancia = scanner.nextDouble();
-
         carroUsado.andar(distancia);
+
+        System.out.println(carroUsado.exibir());
 
         scanner.close();
     }

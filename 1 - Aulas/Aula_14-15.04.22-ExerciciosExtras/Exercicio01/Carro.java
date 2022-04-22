@@ -40,7 +40,9 @@ public class Carro {
 
             System.out.println("Abastecido com sucesso!");
             System.out.println("Adicionados " + litros + "L " + "ao tanque.");
-            System.out.println(litros + qntCombustivel + "L no tanque.");
+            qntCombustivel = qntCombustivel + litros;
+
+            System.out.println(litros + qntCombustivel + "L no tanque.");            
 
         } else {
 
@@ -58,6 +60,7 @@ public class Carro {
         } else {
 
             System.out.println("Viagem feita com sucesso! =)");
+            quilometragem = quilometragem + (float) distancia;
         }
     }
 }
