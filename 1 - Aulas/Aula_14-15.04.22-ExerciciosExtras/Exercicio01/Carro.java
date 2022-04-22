@@ -22,7 +22,6 @@ public class Carro {
         this.marca = marca;
         this.modelo = modelo;
         this.consumo = consumo;
-
     }
 
     public String exibir() {
@@ -47,8 +46,7 @@ public class Carro {
         } else {
 
             System.out.println("Combustivel não pode ser negativo! =(");
-        }
-        
+        }      
     }
 
     public void andar(double distancia) {
