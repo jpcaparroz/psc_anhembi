@@ -10,11 +10,36 @@ public class Carro {
 
     public Carro(String marca, String modelo, double qntCombustivel, double consumo, float quilometragem) {
         
-        this.marca = marca;
-        this.modelo = modelo;
-        this.qntCombustivel = qntCombustivel;        
-        this.consumo = consumo;
-        this.quilometragem = quilometragem;
+        if (marca != null && marca.length() > 4){
+
+            this.marca = marca;   
+        } else{
+
+            this.marca = "????";
+        }
+
+        if (modelo != null && modelo.length() > 1){
+
+            this.modelo = modelo;   
+        } else{
+            
+            this.modelo = "????";
+        }
+
+        if (qntCombustivel > 0){
+
+            this.qntCombustivel = qntCombustivel;   
+        }
+
+        if (consumo > 0){
+
+            this.consumo = consumo;   
+        }
+
+        if (quilometragem > 0){
+
+            this.quilometragem = quilometragem;   
+        }
     }
 
     public Carro(String marca, String modelo, double consumo) {
