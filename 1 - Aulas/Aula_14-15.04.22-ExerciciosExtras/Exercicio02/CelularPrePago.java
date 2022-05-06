@@ -11,8 +11,19 @@ public class CelularPrePago {
     
     public CelularPrePago(String nomeCliente, String numTel) {
         
-        this.nomeCliente = nomeCliente;
-        this.numTel = numTel;
+        if (nomeCliente != null && nomeCliente.length() > 4) {
+            this.nomeCliente = nomeCliente;
+        } else {
+            this.nomeCliente = "????";
+        }
+        
+        if (numTel != null && numTel.length() > 4) {
+
+            this.numTel = numTel; 
+        } else {
+            this.numTel = "???";
+        }
+        
     }
 
     public CelularPrePago(String nomeCliente, String numTel, double saldo) {
