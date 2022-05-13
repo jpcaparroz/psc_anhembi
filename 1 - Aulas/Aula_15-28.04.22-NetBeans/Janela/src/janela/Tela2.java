@@ -40,7 +40,6 @@ public class Tela2 extends javax.swing.JFrame {
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel1.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         jLabel1.setDisabledIcon(null);
-        jLabel1.setFocusTraversalPolicy(null);
         jLabel1.setFocusTraversalPolicyProvider(true);
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel1.setIconTextGap(1);
