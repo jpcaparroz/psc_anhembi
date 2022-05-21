@@ -19,9 +19,18 @@ public class Petshop {
         
     }
 
-    public void pesquisar(Cachorro dog) {
+    public void pesquisar(String raca) {
         
-        lista.get(dog);
+        for (int i = 0; i < lista.size(); i++) {
+            
+            if (lista.get(i).getRaca().equals(raca)) {
+                System.out.println(lista.get(i).toString());
+                System.out.println("*****************************************");
+            } else {
+                System.out.println("Não tem pets com essa raça =(");
+            }
+        }
+        
     }
     
 }
