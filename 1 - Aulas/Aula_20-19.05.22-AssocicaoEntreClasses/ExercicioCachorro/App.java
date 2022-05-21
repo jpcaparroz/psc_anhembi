@@ -29,8 +29,7 @@ public class App {
         pet.listar();
 
         System.out.println("Digite a pesquisa por raça:");
-        String pesquisa = scanner.nextLine();
-        pet.pesquisar(pesquisa);
+        pet.pesquisar(scanner.nextLine());
 
         scanner.close();
     }

@@ -1,4 +1,5 @@
 package ExercicioCachorro;
+import java.text.BreakIterator;
 import java.util.ArrayList;
 
 public class Petshop {
@@ -26,11 +27,8 @@ public class Petshop {
             if (lista.get(i).getRaca().equals(raca)) {
                 System.out.println(lista.get(i).toString());
                 System.out.println("*****************************************");
-            } else {
-                System.out.println("Não tem pets com essa raça =(");
             }
         }
-        
     }
     
 }
