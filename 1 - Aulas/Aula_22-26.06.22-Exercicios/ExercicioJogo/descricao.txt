@@ -1,0 +1,28 @@
+Modele personagens de um jogo
+–Classe Personagem–  
+atributos: ̈nome ̈
+pontos de vida ̈
+energia
+
+–  comportamento: ̈
+atacar ̈
+getPontosVida:retorna os pontos de vida atual ̈d
+iminuirPontosVida:diminui os pontos de vida pela quantidaderecebida como parâmetro de entrada
+
+.–Classe Heroi:
+–  comportamento: ̈
+atacar:consome 20 % de energia ̈
+falarNomeAtaque:fala o nome do ataque
+
+–Classe Vilao:– 
+ comportamento: ̈atacar:consome 15% de energia
+
+ Na classe com main:–  
+ 
+ Instancie um objeto Heroi e um objeto Vilao:–  
+ Faça um loop para simular turnos de combate: ̈
+ a cada turno o heroi ataca e depois o vilão ataca: ̈
+ o heroi tem 50% de chances de acertar um golpe ̈
+ o vilão tem 40% de chances de acertar um golpe ̈
+ cada ataque tira 10 pontos de vida.–  
+ O jogo acaba (encerra o loop) quando: ̈caso algum personagem fique com 0 de pontos de vida.

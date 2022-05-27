@@ -1,0 +1,32 @@
+Modele um lançamento de canhão:
+–Classe Canhao–  
+atributos ̈
+Bala bala ̈
+double alcanceMaximo–  
+
+comportamento ̈
+disparar:recebe como entrada umavelocidade inicial e um ângulo de inclinação. 
+̈getAlcanceMaximo:retorna a posição finalda bala. ̈setBala:coloca uma nova bala;
+
+–Classe Bala–  
+atributos: ̈
+posicao x ̈
+posicao y–  
+
+comportamento ̈
+setPosicaoX:Modifica a posição X atual; 
+̈getPosicaoX:Retorna a posição X atual. 
+̈setPosicaoY:Modifica a posição Y atual; 
+̈getPosicaoY:Retorna a posição Y atual.
+
+
+Na classe com main:–  
+instancie um objeto Canhao e três objetos Bala;
+–  para cada Bala faça um lançamento. ̈
+utilize valores de velocidade e ângulo diferentes; 
+̈mostre a posição final alcançada pela bala em cada lançamento.
+
+•PosiçãoX final da bala:2ˆvelocidadeInicial2ˆcospânguloqˆsenpânguloqaceleração–  
+
+Considere a aceleração da gravidade = 9,81•Dica:–  
+converta os ângulos para radianos (Math.toRadians()) antes de calcular o seno ecosseno (Math.sin()eMath.cos())
